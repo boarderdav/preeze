@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2C32005A2DFEF2D14B48FB7 /* Pods_preeze.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA9D726F6C662DAD1CFC730 /* Pods_preeze.framework */; };
 		FBA4E3901CED059A00A7D716 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA4E38F1CED059A00A7D716 /* AppDelegate.swift */; };
 		FBA4E3921CED059A00A7D716 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA4E3911CED059A00A7D716 /* FirstViewController.swift */; };
 		FBA4E3941CED059A00A7D716 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA4E3931CED059A00A7D716 /* SecondViewController.swift */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A750553340C134359FE23B9E /* Pods-preeze.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-preeze.debug.xcconfig"; path = "Pods/Target Support Files/Pods-preeze/Pods-preeze.debug.xcconfig"; sourceTree = "<group>"; };
+		E196E9DAC9AE81B4FC859EA1 /* Pods-preeze.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-preeze.release.xcconfig"; path = "Pods/Target Support Files/Pods-preeze/Pods-preeze.release.xcconfig"; sourceTree = "<group>"; };
 		FBA4E38C1CED059A00A7D716 /* preeze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = preeze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBA4E38F1CED059A00A7D716 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBA4E3911CED059A00A7D716 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		FBA4E3AD1CED059A00A7D716 /* preezeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = preezeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBA4E3B11CED059A00A7D716 /* preezeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = preezeUITests.swift; sourceTree = "<group>"; };
 		FBA4E3B31CED059A00A7D716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCA9D726F6C662DAD1CFC730 /* Pods_preeze.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_preeze.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2C32005A2DFEF2D14B48FB7 /* Pods_preeze.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D2CC10EE5EB2B0D15D9A75C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCA9D726F6C662DAD1CFC730 /* Pods_preeze.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE8F38CC5C8621A0742DB88A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A750553340C134359FE23B9E /* Pods-preeze.debug.xcconfig */,
+				E196E9DAC9AE81B4FC859EA1 /* Pods-preeze.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FBA4E3831CED059A00A7D716 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +105,8 @@
 				FBA4E3A51CED059A00A7D716 /* preezeTests */,
 				FBA4E3B01CED059A00A7D716 /* preezeUITests */,
 				FBA4E38D1CED059A00A7D716 /* Products */,
+				CE8F38CC5C8621A0742DB88A /* Pods */,
+				2D2CC10EE5EB2B0D15D9A75C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBA4E3B61CED059A00A7D716 /* Build configuration list for PBXNativeTarget "preeze" */;
 			buildPhases = (
+				467314A44C66481767E8B0C0 /* Check Pods Manifest.lock */,
 				FBA4E3881CED059A00A7D716 /* Sources */,
 				FBA4E3891CED059A00A7D716 /* Frameworks */,
 				FBA4E38A1CED059A00A7D716 /* Resources */,
+				1DC273323FED8506D82ECE68 /* Embed Pods Frameworks */,
+				30CA5C73C912F078309DC08B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +280,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DC273323FED8506D82ECE68 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-preeze/Pods-preeze-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30CA5C73C912F078309DC08B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-preeze/Pods-preeze-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		467314A44C66481767E8B0C0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FBA4E3881CED059A00A7D716 /* Sources */ = {
@@ -401,6 +476,7 @@
 		};
 		FBA4E3B71CED059A00A7D716 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A750553340C134359FE23B9E /* Pods-preeze.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = preeze/Info.plist;
@@ -412,6 +488,7 @@
 		};
 		FBA4E3B81CED059A00A7D716 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E196E9DAC9AE81B4FC859EA1 /* Pods-preeze.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = preeze/Info.plist;
@@ -488,6 +565,7 @@
 				FBA4E3B81CED059A00A7D716 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBA4E3B91CED059A00A7D716 /* Build configuration list for PBXNativeTarget "preezeTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +574,7 @@
 				FBA4E3BB1CED059A00A7D716 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBA4E3BC1CED059A00A7D716 /* Build configuration list for PBXNativeTarget "preezeUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +583,7 @@
 				FBA4E3BE1CED059A00A7D716 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
