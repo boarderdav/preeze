@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DC26F4BBAD32E8E7338E400AA99DFE29175D422A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C32B18C855FF96C868C9795F9A10259344C3AE16" : 0,
+    "DC26F4BBAD32E8E7338E400AA99DFE29175D422A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D9C49DD6-166B-4C9E-A333-F17FDFD59710",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C32B18C855FF96C868C9795F9A10259344C3AE16" : "",
+    "DC26F4BBAD32E8E7338E400AA99DFE29175D422A" : "preeze\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "preeze",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "preeze.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:speedr\/speedr.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C32B18C855FF96C868C9795F9A10259344C3AE16"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:boarderdav\/preeze.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DC26F4BBAD32E8E7338E400AA99DFE29175D422A"
+    }
+  ]
+}
